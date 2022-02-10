@@ -1,0 +1,41 @@
+{
+    "root": {
+        "data": {
+            "id": "chrd2zv3gpk0",
+            "created": 1644394167643,
+            "text": "download 下载/更新模板"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "chrd3kod7qo0",
+                    "created": 1644394212948,
+                    "text": "清空模板文件夹 tpl",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chrdevtsk0o0",
+                            "created": 1644395099227,
+                            "text": "读取 config.json 的镜像链接"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chrdfha4shc0",
+                                    "created": 1644395145927,
+                                    "text": "执行下载文件并解压到模板文件夹 tpl"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "structure",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

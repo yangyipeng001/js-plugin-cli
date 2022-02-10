@@ -1,0 +1,50 @@
+{
+    "root": {
+        "data": {
+            "id": "chrcx0oda5s0",
+            "created": 1644393699228,
+            "text": "js-plugin-cli"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "chrcx6yzkgg0",
+                    "created": 1644393712930,
+                    "text": "init 初始化模板",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "chrcxr0n48g0",
+                    "created": 1644393756566,
+                    "text": "template更新模板",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "chrcy8xzsbs0",
+                    "created": 1644393795588,
+                    "text": "mirror切换镜像链接",
+                    "layout": null
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "chrcyjpgbi00",
+                    "created": 1644393819016,
+                    "text": "upgrade 检查更新",
+                    "layout": null
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

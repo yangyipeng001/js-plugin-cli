@@ -1,0 +1,129 @@
+{
+    "root": {
+        "data": {
+            "id": "chrdgv7ur2o0",
+            "created": 1644395254628,
+            "text": "init 初始化项目"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "chrdh7oev7s0",
+                    "created": 1644395281751,
+                    "text": "判断项目是否存在"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chrdhfgi8540",
+                            "created": 1644395298687,
+                            "text": "是"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chrdhnhophk0",
+                                    "created": 1644395316173,
+                                    "text": "提示 项目已存在"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chrdhjvbrfk0",
+                            "created": 1644395308290,
+                            "text": "否"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chrdikvh25c0",
+                                    "created": 1644395388840,
+                                    "text": "提示 填写全局函数名"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "chrdiynrkio0",
+                                            "created": 1644395418849,
+                                            "text": "判断模板文件夹是否存在",
+                                            "priority": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "chrdjm1vjpk0",
+                                                    "created": 1644395469768,
+                                                    "text": "是"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "chrdjsxtj140",
+                                                            "created": 1644395484761,
+                                                            "text": "拷贝模板到对应路径"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "chrdk2sf0uo0",
+                                                                    "created": 1644395506202,
+                                                                    "text": "替换模板字符"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "chrdjp13g4w0",
+                                                    "created": 1644395476252,
+                                                    "text": "否"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "chrdkclaqfk0",
+                                                            "created": 1644395527539,
+                                                            "text": "下载模板文件"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "chrdkhzzk4g0",
+                                                                    "created": 1644395539311,
+                                                                    "text": "拷贝模板到对应路径"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "chrdkuc7svc0",
+                                                                            "created": 1644395566172,
+                                                                            "text": "替换模板字符"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "structure",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}

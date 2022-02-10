@@ -1,0 +1,65 @@
+{
+    "root": {
+        "data": {
+            "id": "chrd0a03i0w0",
+            "created": 1644393954620,
+            "text": "mirror切换镜像链接"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "chrd0s9rb000",
+                    "created": 1644393994387,
+                    "text": "判断 config.json 配置文件是否存在"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "chrd1brx65c0",
+                            "created": 1644394036844,
+                            "text": "是"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chrd1k9cmts0",
+                                    "created": 1644394055312,
+                                    "text": "将镜像链接写入 config.json 中"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "chrd1evh1rs0",
+                            "created": 1644394043589,
+                            "text": "否"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "chrd206wk0o0",
+                                    "created": 1644394089992,
+                                    "text": "创建 config.json 配置文件（优先）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "chrd2ecwni00",
+                                    "created": 1644394120830,
+                                    "text": "将镜像链接写入 config.json 中"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green",
+    "version": "1.4.43"
+}
